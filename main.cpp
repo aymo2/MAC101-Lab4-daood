@@ -72,7 +72,7 @@ int main(){
     if (street <= 19){
         cout << "Would you like to know the neighborhood the stop is in + a fun fact? (y/n)" << endl;
         cin >> ans;
-        if (ans == "y" || ans== "Y") {
+        if (ans == "y" || ans == "Y") {
             if (street <= 1){
         cout << "You are in Long Island City\nLIC used to be a major industrial area full of factories and warehouses. Today, it's known for its skyscrapers, art galleries, and amazing Manhattan skyline views" << endl;
         }
@@ -105,7 +105,7 @@ int main(){
         }
 
     }
-    if (ans == "n" || ans== "N"){
+    if (ans == "n" || ans == "N"){
     cout << "Alright" << endl;
     }
     }
