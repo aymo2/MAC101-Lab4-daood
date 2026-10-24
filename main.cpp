@@ -67,7 +67,7 @@ int main(){
         cout << "You must be at Jamaica Center-Parsons/Archer\n(This is the Last stop!!!)" << endl;
     }
     if (street > 19){
-        cout << "You must have misstyped there are only 19 stops in Queens\nPlease Try again!" << endl;
+        cout << "You must have misstyped there are only 19 stops in Queens\nPlease try again!" << endl;
     }
     if (street <= 19){
         cout << "Would you like to know the neighborhood the stop is in + a fun fact? (y/n)" << endl;
